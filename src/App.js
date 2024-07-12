@@ -44,7 +44,7 @@ function App() {
     if (selected) {
       filteredProducts = filteredProducts.filter(
         ({ category, price, brand }) =>
-          category === selected || price === selected || brand || selected
+          category === selected || price === selected || brand === selected
       );
     }
 
