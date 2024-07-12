@@ -39,7 +39,7 @@ function App() {
     //   filteredProducts = filteredItems;
     // }
 
-    var filteredProducts = products;
+    let filteredProducts = products;
     // selected filter
     if (selected) {
       filteredProducts = filteredProducts.filter(
