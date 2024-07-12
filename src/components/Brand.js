@@ -14,61 +14,61 @@ const Brand = ({ handleChange }) => {
         </label>
         <Input
           handleChange={handleChange}
-          value=""
+          value="TechCo"
           title="TechCo"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="HomeBrew"
           title="HomeBrew"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="ActiveGear"
           title="ActiveGear"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="UrbanStyle"
           title="UrbanStyle"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="AudioPro"
           title="AudioPro"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="CoffeeLuxe"
           title="CoffeeLuxe"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="OutdoorX"
           title="OutdoorX"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="SunShades"
           title="SunShades"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="FitLife"
           title="FitLife"
           name="test1"
         />
         <Input
           handleChange={handleChange}
-          value=""
+          value="KitchenAid"
           title="KitchenAid"
           name="test1"
         />
