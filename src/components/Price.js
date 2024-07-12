@@ -1,35 +1,46 @@
 import React from "react";
 import "../styles/Price.css";
+import Input from "./Input";
 
-const Price = () => {
+const Price = ({ handleChange }) => {
   return (
     <div className="">
       <h2 className="price-title">Price</h2>
       <div className="lg:flex lg:flex-row gap-3 justify-around md:flex md:flex-col ">
         <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
+          <input onChange={handleChange} type="radio" value="" name="test2" />
           <span className="">All</span>
         </label>
-        <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
-          <span className="">$0 - $100</span>
-        </label>
-        <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
-          <span className="">$100 - $200</span>
-        </label>
-        <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
-          <span className="">$200 - $300</span>
-        </label>
-        <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
-          <span className="">$300 - $400</span>
-        </label>
-        <label className="flex gap-1 items-center">
-          <input value="" type="radio" name="test2" />
-          <span className="">Over $500</span>
-        </label>
+        <Input
+          handleChange={handleChange}
+          value={100}
+          title="$0 - $100"
+          name="test2"
+        />
+        <Input
+          handleChange={handleChange}
+          value={200}
+          title="$100 - $200"
+          name="test2"
+        />
+        <Input
+          handleChange={handleChange}
+          value={300}
+          title="$200 - $300"
+          name="test2"
+        />
+        <Input
+          handleChange={handleChange}
+          value={400}
+          title="$300 - $400"
+          name="test2"
+        />
+        <Input
+          handleChange={handleChange}
+          value={550}
+          title="Over $500"
+          name="test2"
+        />
       </div>
     </div>
   );
