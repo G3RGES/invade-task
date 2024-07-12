@@ -1,14 +1,12 @@
 import React from "react";
 
-import data from "../data.json";
-import Product from "./Product";
+// import data from "../data.json";
+// import Product from "./Product";
 
-const Products = () => {
-  //* FILTER FUNCTION HERE
-
+const Products = ({ result }) => {
   return (
     <div>
-      {data.map((item) => (
+      {/* {data.map((item) => (
         <Product
           key={item.id}
           brand={item.brand}
@@ -16,7 +14,8 @@ const Products = () => {
           price={item.price}
           category={item.category}
         />
-      ))}
+      ))} */}
+      <section className="">{result}</section>
     </div>
   );
 };
